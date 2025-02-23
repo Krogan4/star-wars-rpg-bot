@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Gatunki - Star Wars RPG</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #e6e6e6;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            height: 100%;
+        }
+        .sidebar {
+            width: 25%;
+            background-color: #0d0d0d;
+            padding: 20px;
+            border-right: 2px solid #ffd700;
+            position: fixed;
+            height: 100vh;
+        }
+        .sidebar h2 {
+            color: #ffd700;
+            text-align: center;
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            margin: 15px 0;
+        }
+        .sidebar ul li a {
+            color: #00b7eb;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        .sidebar ul li a:hover {
+            color: #ffd700;
+        }
+        .content {
+            width: 75%;
+            margin-left: 25%;
+            padding: 40px;
+        }
+        .content h1 {
+            color: #ffd700;
+            font-size: 48px;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            text-shadow: 0 0 10px #ffd700;
+        }
+        .content h2 {
+            color: #ffd700;
+            font-size: 28px;
+            margin-top: 40px;
+            letter-spacing: 2px;
+        }
+        .content p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        .image-placeholder {
+            width: 200px;
+            height: 200px;
+            background-color: #333;
+            margin: 20px 0;
+            text-align: center;
+            line-height: 200px;
+            color: #ffd700;
+            font-size: 16px;
+            border: 1px solid #00b7eb;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ffd700;
+            padding: 10px;
+            text-align: left;
+            font-size: 16px;
+        }
+        th {
+            background-color: #0d0d0d;
+            color: #ffd700;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Spis Treści</h2>
+            <ul>
+                <li><a href="#tworzenie-postaci">Tworzenie postaci</a></li>
+                <li><a href="gatunki.html">Gatunki</a></li>
+                <li><a href="#profesje">Profesje</a></li>
+                <li><a href="#wspolczynniki">Współczynniki</a></li>
+                <li><a href="#umiejetnosci">Umiejętności</a></li>
+                <li><a href="#sztuczki">Sztuczki</a></li>
+                <li><a href="#uzbrojenie">Uzbrojenie i wyposażenie</a></li>
+                <li><a href="#walka-dystansowa">Walka dystansowa</a></li>
+                <li><a href="#walka-w-zwarciu">Walka w zwarciu</a></li>
+                <li><a href="#miecz-swietlny">Z mieczem świetlnym</a></li>
+                <li><a href="#techniki-walki">Techniki walki</a></li>
+                <li><a href="#uzywanie-mocy">Używanie Mocy</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Gatunki</h1>
+            <p>W galaktyce *Gwiezdnych Wojen* istnieje wiele ras, każda z unikalnymi cechami i historią. Wybierz jedną dla swojej postaci.</p>
+
+            <h2>Człowiek</h2>
+            <p>Człowiek to najliczniejsza i najbardziej wszechstronna rasa w galaktyce. Zamieszkują niemal każdą planetę, od Coruscant po Tatooine.</p>
+            <div class="image-placeholder">Ilustracja: Człowiek</div>
+            <table>
+                <tr><th>Żywotność</th><td>Około 100 lat</td></tr>
+                <tr><th>Kolory skóry</th><td>Różnorodne (od jasnej po ciemną)</td></tr>
+                <tr><th>Ojczysta planeta</th><td>Coruscant (domniemana)</td></tr>
+            </table>
+
+            <h2>Twi’lek</h2>
+            <p>Twi’lekowie słyną z wdzięku i charyzmy. Ich charakterystyczne lekku (ogonogłowy) pełnią funkcje sensoryczne i komunikacyjne.</p>
+            <div class="image-placeholder">Ilustracja: Twi’lek</div>
+            <table>
+                <tr><th>Żywotność</th><td>Około 80-100 lat</td></tr>
+                <tr><th>Kolory skóry</th><td>Zielony, niebieski, czerwony, fioletowy</td></tr>
+                <tr><th>Ojczysta planeta</th><td>Ryloth</td></tr>
+            </table>
+
+            <h2>Zabrak</h2>
+            <p>Zabrakowie to wojownicza rasa o rogach na głowie i dużej wytrzymałości. Znani z determinacji i siły.</p>
+            <div class="image-placeholder">Ilustracja: Zabrak</div>
+            <table>
+                <tr><th>Żywotność</th><td>Około 80-90 lat</td></tr>
+                <tr><th>Kolory skóry</th><td>Jasna, czerwona, brązowa (z tatuażami)</td></tr>
+                <tr><th>Ojczysta planeta</th><td>Iridonia</td></tr>
+            </table>
+
+            <h2>Chiss</h2>
+            <p>Chissowie to tajemnicza rasa z Nieznanych Regionów, znana z niebieskiej skóry i czerwonych oczu. Są strategami i intelektualistami.</p>
+            <div class="image-placeholder">Ilustracja: Chiss</div>
+            <table>
+                <tr><th>Żywotność</th><td>Około 80-120 lat</td></tr>
+                <tr><th>Kolory skóry</th><td>Niebieski</td></tr>
+                <tr><th>Ojczysta planeta</th><td>Csilla</td></tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
